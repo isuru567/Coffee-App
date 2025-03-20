@@ -181,7 +181,7 @@ ul{
 }
 
 .hero-section .section-content .heroimg .hero-coffee {
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     animation: floatImage 4s ease-in-out infinite;
 }
