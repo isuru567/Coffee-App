@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Reem+Kufi:wght@400..700&display=swap');
 
+:root {
+    --Button-color:rgb(212, 126, 12);
+    --Button-padding: 10px 18px ;
+    --Button-font-size: 16px ;
+    --Button-birder-radius: 22px;
+    --Button-font-Size: 1.25rem;
+    --Hover-Color:rgba(212, 125, 12, 0.24);
+
+}
 
 *{
     font-family: "Poppins" sans-serif;
@@ -10,9 +19,11 @@
 }
 
 header{
-    background-color: brown;
+    background-color: rgb(134, 26, 26);
     width: auto;
     height: 60px;
+    margin:0 auto;
+    padding:0 20px ; 
 }
 
 header .navbar{
@@ -46,11 +57,15 @@ ul{
 }
 
 .navbar .navitem .navdata {
-    background-color: rgb(212, 126, 12);
+    background-color: var(--Button-color);
     padding: 10px 18px ;
     border-radius: 22px;
     
+}
 
+.navbar .navitem .navdata:hover{
+    color:var(--Button-color);
+    background-color: rgba(209, 129, 23, 0.767)
 }
 
 .link{
@@ -59,12 +74,11 @@ ul{
 
 }
 
-.button{
-    border: none;
-    width: 5rem;
-    height: auto;
-    background: none;
-    color: white;
-    cursor: pointer;
 
-}
+    
+
+
+ .button:hover{
+    color:white;
+    background-color: rgba(209, 129, 23, 0.767)
+ }
