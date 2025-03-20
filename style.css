@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Reem+Kufi:wght@400..700&display=swap');
+
 
 :root {
     --Button-color:rgb(212, 126, 12);
@@ -10,6 +12,7 @@
 
 
     --background-color:rgb(114, 26, 26);
+    --Font-color:rgb(212, 126, 12);
 
 }
 
@@ -88,25 +91,83 @@ ul{
  /* Hero Section */
 
  .hero-section{
-    min-height: 200vh;
-    background-color:var(--background-color) ;
+    min-height: 1cm;
+    background-color:var(--background-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
  }
 
  .hero-section .section-content{
     display: flex;
     min-height: 100vh;
-    color: white;
     align-items: center;
     justify-content: space-between;
+    color: white;
+    width: 100%;
+    max-width: 1200px
+    
  }
 
  .hero-section .section-content .section-detail{
-    padding: 20px;
-    margin: auto;
+    flex: 1;
+    padding-right: 20px;
     
 }
 
-.section-title{
+.section-detail .section-title{
     font-size: 40px;
-    font-family: ;
+    font-family:'Miniver', sans-serif ;
+    color: var(--Font-color);
+
+
+}
+
+.section-detail .section-title .section-subtitle{
+    font-size: 30px;
+    margin-top: 8px;
+    max-width:  70%;
+    font-weight:bold;
+
+}
+
+.section-detail .section-title .section-subtitle .section-description{
+    font-size: 50px;
+    max-width: 50px;
+    
+}
+
+.section-content .Hero-button{
+    padding: 5px;
+    justify-content: center;
+
+}
+
+.section-content .Hero-button .Order-button{
+    text-decoration: none;
+    color: white;
+    background-color: var(--Button-color);
+    border-radius: var(--Button-birder-radius);
+    padding: var(--Button-padding);
+    font-size: var(--Button-font-Size);
+
+}
+
+.section-content .Hero-button .Contact-button{
+    text-decoration: none;
+    color: white;
+    background-color: var(--Button-color);
+    border-radius: var(--Button-birder-radius);
+    padding: var(--Button-padding);
+    font-size: var(--Button-font-Size);
+    
+}
+
+.hero-section .section-content .heroimg .hero-coffee{
+    padding-top:20px  ;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 30px;
+
 }
