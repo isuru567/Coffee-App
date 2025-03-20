@@ -57,7 +57,7 @@ ul{
 }
 
 .navbar .navitem .navdata {
-    background-color: var(--Button-color);
+    background-color: none;
     padding: 10px 18px ;
     border-radius: 22px;
     
@@ -65,7 +65,7 @@ ul{
 
 .navbar .navitem .navdata:hover{
     color:var(--Button-color);
-    background-color: rgba(209, 129, 23, 0.767)
+    background-color: var(--Button-color);
 }
 
 .link{
