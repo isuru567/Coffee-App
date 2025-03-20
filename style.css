@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Reem+Kufi:wght@400..700&display=swap');
+
+
+*{
+    font-family: "Poppins" sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: brown;
+    width: auto;
+    height: 60px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+header .navbar .navitem{
+    font-size: 1.25rem;
+}
+ul{
+    list-style: none;
+}
+
+.logonav{
+    color: white;
+    text-decoration: none;
+}
+
+.navitem{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 80px;
+    
+
+}
+
+.navbar .navitem .navdata {
+    background-color: rgb(212, 126, 12);
+    padding: 10px 18px ;
+    border-radius: 22px;
+    
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+
+}
+
+.button{
+    border: none;
+    width: 5rem;
+    height: auto;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
