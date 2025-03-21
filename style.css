@@ -3,7 +3,7 @@
 
 
 :root {
-    --Button-color:#ffcc00;
+    --Button-color:#ff9100;
     --Button-padding: 10px 18px ;
     --Button-font-size: 16px ;
     --Button-birder-radius: 22px;
@@ -27,7 +27,7 @@
 header{
     position: fixed;
     width: 100%;
-    z-index: 5%;
+    z-index: 1000;
     background-color: rgb(134, 26, 26);
 }
 
@@ -36,6 +36,7 @@ header .navbar{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    box-shadow:-10px 0 10px  rgb(0, 0, 0, 0.2)  ;
 
 }
 
@@ -49,6 +50,7 @@ ul{
 .logonav{
     color: white;
     text-decoration: none;
+    font-size:1.5rem;
 }
 
 .navitem{
@@ -79,7 +81,14 @@ ul{
 
 }
 
-
+.menu-icon{
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
     
 
 
@@ -87,6 +96,8 @@ ul{
     color:white;
     background-color: rgba(209, 129, 23, 0.767)
  }
+
+
 
  
 
@@ -121,7 +132,7 @@ ul{
     font-size: 50px;
     font-family: 'Miniver', sans-serif;
     font-weight: 700;
-    color: #ffcc00; 
+    color: #ffa600; 
     margin-bottom: 10px;
 }
 
@@ -164,13 +175,14 @@ ul{
 
 .Hero-button .Order-button:hover {
     background-color: transparent;
-    border:#ffcc00 solid;
+    border:white solid;
+    color:white;
 }
 
 .Hero-button .Contact-button:hover {
     background-color:transparent;
-    border:#ffcc00 solid;
-    color: black;
+    border:white solid;
+    color:white;
 }
 
 /* Right Image Styling */
@@ -217,5 +229,32 @@ ul{
 
     .hero-section .section-content .heroimg .hero-coffee {
         max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navitem {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: rgb(134, 26, 26);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navitem.active {
+        display: flex;
+    }
+
+    .navdata {
+        padding: 12px;
+    }
+
+    .menu-icon {
+        display: block;
     }
 }
