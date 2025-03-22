@@ -9,11 +9,13 @@
     --Button-birder-radius: 22px;
     --Button-font-Size: 1.25rem;
     --Hover-Color:rgba(212, 125, 12, 0.24);
+    
 
 
     --background-color:rgb(114, 26, 26);
     --Font-color:rgb(212, 126, 12);
-
+    --Topic-Font-Size:35px;
+    --Description-Font-Size:18px
 }
 
 *{
@@ -129,7 +131,7 @@ ul{
 }
 
 .section-detail .section-title {
-    font-size: 50px;
+    font-size: var(--Topic-Font-Size);
     font-family: 'Miniver', sans-serif;
     font-weight: 700;
     color: #ffa600; 
@@ -145,7 +147,7 @@ ul{
 }
 
 .section-detail .section-description {
-    font-size: 18px;
+    font-size: var(--Description-Font-Size);
     line-height: 1.6;
     max-width: 80%;
     margin-bottom: 20px;
@@ -199,7 +201,50 @@ ul{
 }
 
 /* About Section */
+.about{
+    padding: 120px 0 ;
+    background: light pink;
+}
 
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about .about-image .image{
+    width: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-title .title{
+    text-align: center;
+    padding: 60px 0 100px ;
+    text-transform: uppercase;
+    font-size: var(--Topic-Font-Size);
+}
+
+.about-title .title::after{
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+    background-color: var(--Button-color);
+}
+
+.about-title .about-description{
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-transform: lowercase;
+    font-size: var(--Description-Font-Size);
+
+
+}
 
 
 
@@ -215,7 +260,7 @@ ul{
     }
 }
 
-/* Responsive Design */
+/* Responsive Design for Hero Section */
 @media (max-width: 768px) {
     .hero-section .section-content {
         flex-direction: column;
@@ -238,6 +283,9 @@ ul{
         max-width: 300px;
     }
 }
+
+/* Responsive for Nav Bar*/
+
 
 @media (max-width: 768px) {
     .navitem {
