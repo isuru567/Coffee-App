@@ -148,6 +148,7 @@ ul{
 
 .section-detail .section-description {
     font-size: var(--Description-Font-Size);
+    text-align:start;
     line-height: 1.6;
     max-width: 80%;
     margin-bottom: 20px;
@@ -202,8 +203,9 @@ ul{
 
 /* About Section */
 .about{
-    padding: 120px 0 ;
-    background: light pink;
+    padding: 100px 0  50px ;
+    background-color: rgb(223, 217, 218);
+    
 }
 
 .about .about-content{
@@ -221,6 +223,7 @@ ul{
 }
 
 .about-title .title{
+    padding: 0;
     text-align: center;
     padding: 60px 0 100px ;
     text-transform: uppercase;
@@ -238,10 +241,13 @@ ul{
 }
 
 .about-title .about-description{
+    padding: 0%;
     line-height: 30px;
     margin: 50px 0 30px;
-    text-transform: lowercase;
+    text-align: center;
     font-size: var(--Description-Font-Size);
+    font-weight: bold;
+
 
 
 }
@@ -260,7 +266,7 @@ ul{
     }
 }
 
-/* Responsive Design for Hero Section */
+/* Responsive Design */
 @media (max-width: 768px) {
     .hero-section .section-content {
         flex-direction: column;
@@ -282,12 +288,7 @@ ul{
     .hero-section .section-content .heroimg .hero-coffee {
         max-width: 300px;
     }
-}
-
-/* Responsive for Nav Bar*/
-
-
-@media (max-width: 768px) {
+ /* Nav Bar resposive */
     .navitem {
         display: none;
         flex-direction: column;
@@ -313,4 +314,9 @@ ul{
     .menu-icon {
         display: block;
     }
+
+    /* Responsive for About Section*/
+
+    
+
 }
