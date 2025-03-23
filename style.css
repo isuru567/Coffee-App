@@ -247,9 +247,26 @@ ul{
     font-size: var(--Description-Font-Size);
     font-weight: bold;
     font-family:"Funnel", sans-serif ;
+}
+
+.about .about-title .social-link-list{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap:25px;
+}
 
 
 
+.about .about-title .social-link-list .social-link{
+    font-size: 2rem;
+    color: rgb(75, 71, 71);
+    transition: 0.2s ease;
+
+}
+
+.about .about-title .social-link-list .social-link:hover{
+    color: var(--Button-color);
 }
 
 
