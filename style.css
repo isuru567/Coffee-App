@@ -215,9 +215,9 @@ ul{
 
 .about .about-content{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 50px;
+    justify-content: center;
 }
 
 .about .about-image .image{

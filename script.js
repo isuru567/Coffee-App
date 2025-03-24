@@ -18,5 +18,13 @@ const sr = ScrollReveal ({
     reset: true
 });
 
+//hero section Motions
 sr.reveal('.section-detail',{delay:200, origin:'top'});
 sr.reveal('.heroimg',{delay:450, origin:'right'});
+
+//About page Motions
+sr.reveal('.about-image',{delay:450, origin:'left'});
+sr.reveal('.title',{delay:450, origin:'right'});
+sr.reveal('.about-description',{delay:550, origin:'right'});
+sr.reveal('.social-link-list',{delay:650, origin:'right'});
+
