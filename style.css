@@ -198,13 +198,13 @@ ul{
 .hero-section .section-content .heroimg .hero-coffee {
     max-width: 500px;
     height: auto;
-    animation: floatImage 4s ease-in-out infinite;
 }
 
 /* About Section */
 .about{
     padding: 100px 0  50px ;
     background-color: rgb(223, 217, 218);
+    justify-content: center;
     
 }
 
@@ -273,15 +273,7 @@ ul{
 
 
 
-/* Floating animation for a stylish effect */
-@keyframes floatImage {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
