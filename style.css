@@ -176,10 +176,15 @@ ul{
     border: 2px solid #ffcc00;
 }
 
+.Hero-button .Contact-button:hover{
+    transform: translateY(-5px);
+}
+
 .Hero-button .Order-button:hover {
     background-color: transparent;
     border:white solid;
     color:white;
+    transform: translateY(-5px);
 }
 
 .Hero-button .Contact-button:hover {

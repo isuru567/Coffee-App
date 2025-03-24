@@ -11,11 +11,12 @@ menuBtn.addEventListener("click", () => {
 
 //Adding motions
 
-const {animate}=Motion; 
+const sr = ScrollReveal ({
+    distance: '65px',
+    duration:2600,
+    delay: 450,
+    reset: true
+});
 
-const element= document.querySelector(".hero-coffee");
-
-animate(
-
-    
-);
+sr.reveal('.section-detail',{delay:200, origin:'top'});
+sr.reveal('.heroimg',{delay:450, origin:'right'});
