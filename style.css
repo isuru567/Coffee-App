@@ -314,10 +314,10 @@ ul{
     overflow: hidden;
     padding-top: 25px;
     width: 100%;
-    justify-content: center;
+    justify-content:space-between;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+
 
 }
 
