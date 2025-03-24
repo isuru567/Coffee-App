@@ -331,6 +331,18 @@ ul{
 
     /* Responsive for About Section*/
 
+    .about-content{
+        flex-direction: column;
+        
+
+    }
+    .about-content .about-image{
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
     
 
 }
