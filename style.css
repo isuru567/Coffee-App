@@ -323,7 +323,7 @@ ul{
 
 .Gallery-Section .gallery-items .Item-image{
     width: 100%;
-    height: auto;
+    height: 250px;
     object-fit: cover;
     cursor: pointer;
     transition: 0.3s ease;
