@@ -30,5 +30,6 @@ sr.reveal('.social-link-list',{delay:650, origin:'right'});
 
 //Gallery page Motion
 sr.reveal('.Gallery-title',{delay:650, origin:'left'});
+sr.reveal('.gallery-list',{delay:600, origin:'right'});
 
 
