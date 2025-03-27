@@ -583,6 +583,27 @@ ul{
     }
 
 
+    /* reponsive for Footer section */
+
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section .copy-right{
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-section .social-link{
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-section .privecy-policy{
+        padding: 10px;
+        padding-bottom: 10px;
+    }
     
 
 }
