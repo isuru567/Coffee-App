@@ -19,7 +19,7 @@ const sr = ScrollReveal ({
 });
 
 //hero section Motions
-sr.reveal('.section-detail',{delay:200, origin:'top'});
+sr.reveal('.section-detail',{delay:200, origin:'left'});
 sr.reveal('.heroimg',{delay:450, origin:'right'});
 
 //About page Motions
