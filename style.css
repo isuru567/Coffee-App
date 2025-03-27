@@ -419,11 +419,23 @@ ul{
     color: black;
 }
 
+/*Footer section styling*/
 
+.footer-section{
+    background-color:rgb(49, 47, 47);
+    padding: 35px 0;
+
+}
+
+.footer-section .footer-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
 /* Responsive Design */
-@media (max-width: 768px) {<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands fa-square-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands fa-square-twitter"></i></a>
+@media (max-width: 768px) {
     .hero-section .section-content {
         flex-direction: column;
         text-align: center;
