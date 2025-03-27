@@ -335,7 +335,7 @@ ul{
 
 /*Contact us page styling*/
 .Contact-section{
-    padding: 0;
+    padding: 20px;
     margin: 0;
     background-color:rgb(223, 217, 218); 
 
@@ -365,9 +365,11 @@ ul{
 
 .Contact-section .contact-list .contact-list-item{
     display: flex;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 15px;
     margin: 20px 0;
     align-items: center;
+    line-height: 1.5;
 }
 
 .Contact-section .contact-list .contact-list-item i {
@@ -375,7 +377,10 @@ ul{
 }
 
 .Contact-section .send-mail{
-    padding: 60px ;
+    padding: 40px ;
+    width:100%;
+    margin-left: auto;
+    max-width: 700px;
 }
 
 .Contact-section .send-mail .form-input {
@@ -489,6 +494,20 @@ ul{
     .Gallery-Section .Gallery-content .gallery-items .Item-image{
         flex-direction: column; 
      }
+
+
+     /*reponasive for contact page */
+
+     .Contact-section .personal-contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact-section .send-mail {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 
 
     
