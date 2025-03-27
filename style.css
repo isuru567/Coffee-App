@@ -398,8 +398,18 @@ ul{
 
 
     /*Contact us page styling*/
-   
+    .Contact-section{
+        padding: 0;
+        margin: 0;
+        background-color:rgb(223, 217, 218); 
 
+    }
+   
+    .Contact-section .contact-topic{
+        padding: 0;
+        text-align: center;
+
+    }
 
 
     /* Resposive for gallery Section */
