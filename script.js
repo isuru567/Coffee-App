@@ -32,4 +32,7 @@ sr.reveal('.social-link-list',{delay:650, origin:'right'});
 sr.reveal('.Gallery-title',{delay:650, origin:'left'});
 sr.reveal('.gallery-list',{delay:600, origin:'right'});
 
-
+//Contact page Motions
+sr.reveal('.contact-topic',{delay:500, origin:'top'});
+sr.reveal('.contact-list',{delay:650, origin:'left'});
+sr.reveal('.send-mail',{delay:650, origin:'right'});
