@@ -424,16 +424,46 @@ ul{
 .footer-section{
     background-color:rgb(49, 47, 47);
     padding: 35px 0;
-
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-section .footer-content{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto ; 
 
 }
+
+.footer-section .copy-right,
+.footer-section .policy-links {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+}
+
+.footer-section .social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-section .footer-content .copy-right{
+    font-size: 1.25rem;
+}
+
+.footer-section .social-links{
+    display: flex;
+    gap:20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+
+
+}
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section .section-content {
