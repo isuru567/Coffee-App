@@ -421,7 +421,9 @@ ul{
 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 768px) {<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-square-twitter"></i></a>
     .hero-section .section-content {
         flex-direction: column;
         text-align: center;
