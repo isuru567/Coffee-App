@@ -333,6 +333,70 @@ ul{
     transform: scale(1.3);
 }
 
+/*Contact us page styling*/
+.Contact-section{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(223, 217, 218); 
+
+}
+
+.Contact-section .contact-topic{
+    padding: 0;
+    text-align: center;
+    font-size: var(--Topic-Font-Size);
+}
+
+.Contact-section .contact-topic::after{
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+    background-color: var(--Button-color);
+}
+
+.Contact-section .personal-contacts{
+    display: flex;
+    gap: 48px;
+    padding: 25px;
+}
+
+.Contact-section .contact-list .contact-list-item{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.Contact-section .contact-list .contact-list-item i {
+    font-size: 1.25rem;
+}
+
+.Contact-section .send-mail .form-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 12px;
+    outline: none;
+    margin-bottom:16px;
+    border: solid 1px black;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.Contact-section .send-mail textarea {
+    height: 100%;
+    padding: 12px;
+    resize: vertical;
+    
+}
+
+
+
+
+
+
 
 
 /* Responsive Design */
@@ -397,19 +461,7 @@ ul{
     }
 
 
-    /*Contact us page styling*/
-    .Contact-section{
-        padding: 0;
-        margin: 0;
-        background-color:rgb(223, 217, 218); 
-
-    }
-   
-    .Contact-section .contact-topic{
-        padding: 0;
-        text-align: center;
-
-    }
+    
 
 
     /* Resposive for gallery Section */
