@@ -180,11 +180,12 @@
                 <div class="send-mail">
                 <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
                     <input type="hidden" name="access_key" value="93334fa0-f375-4fdb-81d9-358f49e932f1">
-                    <input type="text" placeholder="Your Name" class="form-input" required>
-                    <input type="email" placeholder="Your Email" class="form-input" required>
-                    <textarea placeholder="Enter Your Message" class="form-input" required></textarea>
+                    
+                    <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                    <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                    <textarea name="messeage" placeholder="Enter Your Message" class="form-input" required></textarea>
 
-                    <button class="input-button"> Send Your Message </button>
+                    <button type="submit" class="input-button"> Send Your Message </button>
                 </form>
                 
             </div>
